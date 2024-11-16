@@ -50,7 +50,7 @@ This repository contains my personal & custom bash config that i find very essen
     - Create a folder GLCache in ~/.nv, so games cache gets stored there
     - Games you need cache saved, you can add launch options in steam:
 
-*__GL_SHADER_DISK_CACHE_SKIP_CLEANUP=1 __GL_SHADER_DISK_CACHE_PATH="$HOME/.nv/GLCache" gamemoderun mangohud %command%*
+-        *__GL_SHADER_DISK_CACHE_SKIP_CLEANUP=1 __GL_SHADER_DISK_CACHE_PATH="$HOME/.nv/GLCache" gamemoderun mangohud %command%*
     
     - I notice games like God of War 2018 compile shaders after 5 mins of a scene then i exit the game and come back to play again, i notice the whole game is super stuttery until after 5 mins later, its smooth like before, that's when I noticed, shader's aren't saved like usual when compared to Windows but after doing this, performance seems same as Windows or better.
 
