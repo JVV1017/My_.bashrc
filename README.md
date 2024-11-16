@@ -27,19 +27,19 @@ This repository contains my personal & custom bash config that i find very essen
 ## Important stuff to do or own:
 
 1. Packages to install:
-    - lsd = Alternative to ls 
-    - bat = Alternative to cat
-    - duf = Alterantive to du
-    - fastfetch = Alternative to neofetch
-    - feh = Terminal Image Viewer
-    - broot = Alternative to tree
-    - mcfly = Alternative to reverse search
+    - **lsd** = Alternative to ls 
+    - **bat** = Alternative to cat
+    - **duf** = Alterantive to du
+    - **fastfetch** = Alternative to neofetch
+    - **feh** = Terminal Image Viewer
+    - **broot** = Alternative to tree
+    - **mcfly** = Alternative to reverse search
 
 2. Change the system-update to something related to your distro for example:
     - Debian:
-        - sudo apt update && sudo apt upgrade -y && sudo apt autoremove && sudo apt autoclean
+        -     sudo apt update && sudo apt upgrade -y && sudo apt autoremove && sudo apt autoclean
     - Fedora: 
-        - sudo dnf update && sudo dnf upgrade -y
+        -     sudo dnf update && sudo dnf upgrade -y
 
 3. Want to change the default prompt to something cleaner?
     - Use starship prompt!!!
@@ -47,10 +47,11 @@ This repository contains my personal & custom bash config that i find very essen
         - Then its set, no need to add anything to .bashrc, already done for you :)
 
 4. Notice games like God of War 2018 not saving your shader or Graphics cache?
-    - Create a folder GLCache in ~/.nv, so games cache gets stored there
+    - Create a folder GLCache in **~/.nv**, so games cache gets stored there
     - Games you need cache saved, you can add launch options in steam:
 
             *__GL_SHADER_DISK_CACHE_SKIP_CLEANUP=1 __GL_SHADER_DISK_CACHE_PATH="$HOME/.nv/GLCache" gamemoderun mangohud %command%*
+
     - I notice games like God of War 2018 compile shaders after 5 mins of a scene then i exit the game and come back to play again, i notice the whole game is super stuttery until after 5 mins later, its smooth like before, that's when I noticed, shader's aren't saved like usual when compared to Windows but after doing this, performance seems same as Windows or better.
 
 5. I prefer calendar to show monday as the first day of the week :)
@@ -68,7 +69,7 @@ This repository contains my personal & custom bash config that i find very essen
 
 - Remove my .bashrc and rename the backup to .bashrc from .bashrc.backup if you did in that fashion
 
-- Remove the packages you installed and the other tools if you don't like that.
+- Remove the packages you installed and the other tools if you don't like them.
 
 ---------------------------------------------------------------------------------------------------
 
